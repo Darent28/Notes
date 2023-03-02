@@ -1,0 +1,92 @@
+footer {
+  min-height: 70px;
+  background-color: #191919;
+  background-image: -moz-linear-gradient(top, #191919, #000000);
+  background-image: -o-linear-gradient(tom, #191919, #000000);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #191919), color-stop(1, #000000));
+  background-image: -webkit-linear-gradient(#191919, #000000);
+  background-image: linear-gradient(top, #191919, #000000);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#191919', endColorStr='#000000');
+  border-top: 1px solid rgba(50, 50, 50, 0.3);
+  width: 100%;
+  position: absolute;
+  clear: both;
+  margin-top: 100px;
+  padding-top: 0px;
+  overflow: visible;
+  float: left;
+  top:93%;
+} 
+
+body{
+    background-color: rgb(67, 62, 71);
+
+}
+
+
+
+.Caja1{
+  
+    min-height: 80.7vh;
+    width: 370px;
+    background-color: #cfccd4;
+   
+    position:fixed;
+}
+
+.Caja2{
+    height: 400px;
+    width: 370px;
+    background-color: #d1c4c4;
+  
+    position:fixed;
+}
+
+.Caja3{
+    min-height: 20.7vh;
+    width: 370px;
+    background-color: #cfccd4;
+    position:fixed;
+}
+
+#fotoUsuario{
+    width: 60px;
+    height: 60px;
+    border-radius: 28px 28px 28px 28px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 6px;
+    font-size: 12px;
+}
+
+.btn{
+    margin-top: 5px;
+    width:200px;
+    border-radius: 6px 6px 6px 6px;
+    margin-left: 80px;
+    background-color: #FFF;
+    border-color: rgb(157, 143, 175);
+    color: black;
+    /*                  */
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 6px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+        <link rel="stylesheet"  href="CSS/inicio.css">
+    </head>
+    <body>
+
+
+        <div class = "Caja1">
+
+            <img id="fotoUsuario" src=""/>
+            <p  class="ml-3" >Ruta foto: <small id="rutita"></small></p>
+            <p  class="ml-3" >Usuario: <small  id="NombreUsuario"></small></p>
+            <p class="ml-3">Contraseña: <small id="ContraUsuario"></small></p>
+            <p class="ml-3">Nombre: <small id="Nombre"></small></p>
+            <p class="ml-3">Apellidos: <small id="Apellidos"></small></p>
+            <p class="ml-3">Correo: <small id="Correo"></small></p>
+            <p class="ml-3">Fecha Nacimiento: <small id="FechaNacimiento"></small></p>
+
+            
+            <a class="btn btn-lg btn-facebook btn-block text-uppercase" href="EditarUserDatos.html">Editar datos</a>
+          
+
+            <br> <br>
+            <form class="form-signin mt-3" id="Insert_New_Note" enctype="multipart/form-data">
+
+                <div class="form-label-group">
+                    <input type="text" id ="Titulo" class="form-control" placeholder="Titulo" required autofocus>
+                </div>
+
+                <div class="form-label-group mt-4">
+                    <input type="text" id="Nota" class="form-control" placeholder="Nota" required>
+                </div>
+               
+                <input name="accion" type="hidden" value="insertar"/>
+                <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Nueva Nota</button>
+            </form>
+
+            <br> <br> 
+            <form class="form-signin" id="buscarnota" enctype="multipart/form-data">
+
+                <div class="form-label-group">
+                    <input type="text" id ="taquitos" name="Buscar" class="form-control" placeholder="Buscar...">
+                </div>
+            </form>
+           
+
+            
+            <br> <br> <br> <br>
+            <a class="btn btn-lg btn-facebook btn-block text-uppercase" href="index.html">Cerrar sesión</a>     
+
+        </div> 
+
+        
+        <div class="container">
+            <div class="row col-12" id="notasuwu">  
+
+            </div>
+        </div>
+
+        <nav aria-label="Page navigation example text-center" style="padding-left: 50%;">
+            <ul class="pagination" id="paginas">
+            </ul>
+
+        
+        <footer class="bg-dark">
+
+            <div class=" mt-5">
+                <div class="row">
+
+
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 ">
+                        <h2 class="text-warning ml-5 "><i id="hambre" class="wow bounce fas fa-phone "></i> Telefono
+                        </h2><p class="text-warning ml-5 col-12">
+                            8123826122
+                        </p>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"><h2  class="text-warning">
+                            <i id="hambre" class="wow bounce fas fa-hand-paper ml-5 " ></i> Ubicacion
+                        </h2>
+                        <p class="text-warning ml-5">San Nicolas, NL </p>
+                        <br><p class="text-warning ml-5">Domicilio: Nogalar </p></br>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 ">
+                        <h2 class="text-warning col-12 ml-5">
+                            <i id="hambre" class=" wow bounce  fas fa-at "></i> Correo</h2><p class="text-warning ml-5 col-12">
+                            david.elizondors@uanl.edu.mx
+                            </p>
+
+                    </div>
+                
+                </div>
+
+        
+
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="JS/notasdx.js"></script>
+    </body>
+</html>
