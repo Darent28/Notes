@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet"  href="CSS/login.css">
+
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+
+                    <div class="card card-signin my-5">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Editar datos</h5>
+
+                            <form class="form-signin" id="RegistroUsuario" enctype="multipart/form-data">
+                                
+                                <input name="milagro" type="hidden" id="sorpresa"/>
+
+                                <div class="form-label-group">
+                                    <input type="text" id="dato1" name="Nombre" class="form-control" placeholder="Nombre" required autofocus> 
+                                </div>
+
+                                <div class="form-label-group">
+                                    <input type="text"  id="dato2" name="Apellidos" class="form-control mt-3" placeholder="Apellidos" required autofocus> 
+                                </div>  
+
+                                <input id="date" type="date" class ="mt-3" name ="picker" min="1920-01-01" max="2021-12-02" required>
+
+                                <div class="form-label-group">
+                                    <input type="text"  name="Correo" id="Email"  class="form-control mt-3" placeholder="Correo" required autofocus> 
+                                </div>
+
+                                <div class="form-label-group">
+                                    <input type="text" id="dato3" name="Usuario_Nombre" class="form-control mt-3" placeholder="Usuario" required autofocus> 
+                                </div>
+
+                                <div class="form-label-group">
+                                    <input type="password" id="dato4" name="Contrasenia" class="form-control mt-3" placeholder="Contraseña" required>
+                                </div>
+
+                                <div class="form-label-group">
+                                    <input type="file" id="pick" name="foto" class="form-control" required>
+                                </div>
+
+
+                                <button class="btn btn-lg btn-success btn-block text-uppercase my-4" type="submit">Editar Usuario</button>
+                                <hr class="my-4">
+                                <a class="btn btn-lg btn-facebook btn-block text-uppercase" href="Notasxd.html"><i class="fab fa-facebook-f mr-2"></i> Regresar </a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="JS/edituser.js"></script>
+    </body>
+</html>

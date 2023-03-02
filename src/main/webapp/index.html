@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet"  href="CSS/login.css">
+        <title>Login</title>  
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="row" id="caja"> 
+
+                <div class="mx-auto col-sm-4 col-md-0 col-lg-5">
+                </div>
+
+                <div class="col-sm-9 col-md-0 col-lg-10 mx-auto" >
+                    <h3 class="card-title text-center">Iniciar Sesión</h3>
+
+                    <form id="loginForm">
+
+                        <div class="form-label-group">
+                            <input type="text" name="Usuario_Nombre" class="form-control" placeholder="Usuario" required autofocus>
+                        </div>
+
+                        <div class="form-label-group mt-4">
+                            <input type="password" name="Contrasenia" class="form-control" placeholder="Contraseña" required autofocus>
+                        </div>
+
+                        <div class="custom-control custom-checkbox mb-3">
+                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                            <label class="custom-control-label" for="customCheck1">Recordar contraseña</label>
+                        </div>
+
+                        <input name="accion" type="hidden" value="login"/>
+                        <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Iniciar sesión </button>
+
+                        <hr class="my-4">
+                        <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
+			                <p>¿No tienes una cuenta? <a class="link" href="RegistrarUsuario.html">Registrate </a></p>
+   
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="JS/Login.js"></script>
+    </body>
+</html>
